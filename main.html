@@ -16,12 +16,15 @@
 		<input type="radio" name = "gender" value="male" required>Male
 		<input type="radio" name = "gender" value="female" required>Female<br>
 		<label for="fcar">Car Brands</label>
-		<input type="dropdown" name="car" id="cars">
-		<datalist id="cars">
-			<option value="BMW">
-			<option value="Audi">
-			<option value="Mercedez">
-		</datalist>
+<!-- /		<input type="dropdown" name="fcar" id="cars"> -->
+		<select id="cars">
+		  <optgroup label=" Cars">
+			  <option value="select option">Select Option</option>
+			  <option value="Mercedez">Mercedez</option>
+		    <option value="BMW">BMW</option>
+		    <option value="Audi">Audi</option>
+		  </optgroup>
+		</select>
 		<input type="submit" value="Submit">
 	</form>
 </body>
